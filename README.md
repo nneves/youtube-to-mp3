@@ -13,7 +13,6 @@ docker pull nneves/youtube-to-mp3
 docker run -v $(pwd)/:/workdir nneves/youtube-to-mp3 <YOUTUBE_URL>
 ```
 
----------------------------------------------------
 
 This image is also compatible with whalebrew format:
 
