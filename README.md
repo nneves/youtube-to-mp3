@@ -27,3 +27,16 @@ whalebrew install nneves/youtube-to-mp3
 ```
 youtube-to-mp3 <YOUTUBE_URL>
 ```
+
+### Build the docker container
+
+```
+docker build -t nneves/youtube-to-mp3 .
+```
+
+### Push the container to dockerhub
+
+````
+docker login
+docker push nneves/youtube-to-mp3
+```
